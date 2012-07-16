@@ -4,7 +4,7 @@ appbase = http://code.ceres.auckland.ac.nz/snapshot-downloads/combinedClient
 # UI Configuration
 ui.name = Grisu
 
-ui.background = splash.png
+ui.background = grisu.png
 ui.progress = 52, 145, 236, 15
 ui.progress_text = 747474
 ui.progress_bar = CCCCCC
