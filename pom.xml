@@ -1,30 +1,31 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <parent>
-    <groupId>nz.org.nesi</groupId>
-    <artifactId>nesi</artifactId>
-    <version>0.17</version>
-  </parent>
-  <groupId>grisu.frontend</groupId>
-  <artifactId>combinedClient</artifactId>
-  <version>0.1-SNAPSHOT</version>
-  <dependencies>
-  	<dependency>
-  		<groupId>grisu.frontend</groupId>
-  		<artifactId>gricli</artifactId>
-  		<version>0.8-SNAPSHOT</version>
-  	</dependency>
-  	<dependency>
-  		<groupId>grisu.frontend</groupId>
-  		<artifactId>grisu-template-client</artifactId>
-  		<version>0.8-SNAPSHOT</version>
-  	</dependency>
-  </dependencies>
-  
-  
-  <build>
-  	<plugins>
-  				<!-- you can disable the assembly plugin if you want, your builds will
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>nz.org.nesi</groupId>
+		<artifactId>nesi</artifactId>
+		<version>0.17</version>
+	</parent>
+	<groupId>grisu.frontend</groupId>
+	<artifactId>combinedClient</artifactId>
+	<version>0.1-SNAPSHOT</version>
+	<dependencies>
+		<dependency>
+			<groupId>grisu.frontend</groupId>
+			<artifactId>gricli</artifactId>
+			<version>0.8-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>grisu.frontend</groupId>
+			<artifactId>grisu-template-client</artifactId>
+			<version>0.8-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+
+
+	<build>
+		<plugins>
+			<!-- you can disable the assembly plugin if you want, your builds will 
 				be faster I find it quite handy to have maven build an executable jar, though -->
 			<plugin>
 				<artifactId>maven-assembly-plugin</artifactId>
@@ -56,9 +57,64 @@
 					</execution>
 				</executions>
 			</plugin>
-  	
-  	</plugins>
-  
-  </build>
-  
+
+		</plugins>
+
+	</build>
+
+	<profiles>
+		<profile>
+			<id>getdown</id>
+			<build>
+				<plugins>
+
+					<plugin>
+						<artifactId>maven-resources-plugin</artifactId>
+						<version>2.5</version>
+						<executions>
+							<execution>
+								<id>copy-getdown-control</id>
+								<!-- here the phase you need -->
+								<phase>prepare-package</phase>
+								<goals>
+									<goal>copy-resources</goal>
+								</goals>
+								<configuration>
+									<outputDirectory>${basedir}/target/</outputDirectory>
+									<resources>
+										<resource>
+											<directory>${basedir}</directory>
+											<includes>
+												<include>getdown.txt</include>
+											</includes>
+										</resource>
+									</resources>
+								</configuration>
+							</execution>
+						</executions>
+					</plugin>
+
+					<plugin>
+						<groupId>org.bitbucket.joxley</groupId>
+						<artifactId>getdown-maven-plugin</artifactId>
+						<version>nesi-0.0.1</version>
+						<configuration>
+							<appdir>target</appdir> <!-- Defaults to target -->
+						</configuration>
+						<executions>
+							<execution>
+								<phase>package</phase>
+								<goals>
+									<goal>digest</goal>
+								</goals>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+
+	</profiles>
+
+
 </project>
