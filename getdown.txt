@@ -4,6 +4,14 @@ appbase = http://code.ceres.auckland.ac.nz/snapshot-downloads/combinedClient
 # UI Configuration
 ui.name = Grisu
 
+ui.background = splash.png
+ui.progress = 52, 145, 236, 15
+ui.progress_text = 747474
+ui.progress_bar = CCCCCC
+
+ui.status = 52, 178, 247, 15
+ui.status_text = 747474
+
 # Application jar files
 code = combinedClient-binary.jar
 
