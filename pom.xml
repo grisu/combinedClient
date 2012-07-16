@@ -61,7 +61,7 @@
 							<archive>
 								<index>true</index>
 								<manifest>
-									<mainClass>grisu.gricli.Gricli</mainClass>
+									<mainClass>grisu.frontend.view.swing.GrisuTemplateApp</mainClass>
 								</manifest>
 								<manifestEntries>
 									<Class-Path>bcprov.jar bcprov-jdk15-143.jar
