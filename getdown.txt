@@ -13,7 +13,7 @@ ui.status = 52, 178, 247, 15
 ui.status_text = 747474
 
 # Application jar files
-code = grid-client.jar
+code = grid-client-core.jar
 code = grid-client-dependencies.jar
 
 # The main entry point for the application
