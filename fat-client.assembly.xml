@@ -22,6 +22,7 @@
 					<exclude>**/LICENSE.txt</exclude>
 					<exclude>**/NOTICE.txt</exclude>
 					<exclude>**/logback.xml</exclude>
+					<exclude>**/logback.groovy</exclude>
 				</excludes>
 			</unpackOptions>
 		</dependencySet>
