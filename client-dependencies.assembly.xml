@@ -7,23 +7,20 @@
 	<dependencySets>
 		<dependencySet>
 			<unpack>true</unpack>
-			<useTransitiveDependencies>false</useTransitiveDependencies>
-<!-- 			<useTransitiveFiltering>false</useTransitiveFiltering> -->
-			<useProjectArtifact>true</useProjectArtifact>
+			<useTransitiveDependencies>true</useTransitiveDependencies>
+			<useTransitiveFiltering>false</useTransitiveFiltering>
+			<useProjectArtifact>false</useProjectArtifact>
 			<outputDirectory>/</outputDirectory>
-			<includes>
-<!-- 				<include>grisu.frontend:combinedClient</include> -->
-				<include>grisu.frontend:gricli</include>
-				<include>grisu.frontend:grisu-client</include>
-				<include>grisu:grisu-commons</include>
-				<include>grisu:grid-jcommons</include>
-				<include>grith:jgrith</include>
-				<include>grith:grid-session</include>
-				<include>grisu.frontend:grisu-template-client</include>
-				<include>grisu.frontend:grisu-client-swing</include>
-				<include>grisu.frontend:grython</include>
-			</includes>
 			<excludes>
+				<exclude>grisu.frontend:gricli</exclude>
+				<exclude>grisu.frontend:grisu-client</exclude>
+				<exclude>grisu:grisu-commons</exclude>
+				<exclude>grisu:grid-jcommons</exclude>
+				<exclude>grith:jgrith</exclude>
+				<exclude>grith:grid-session</exclude>
+				<exclude>grisu.frontend:grisu-template-client</exclude>
+				<exclude>grisu.frontend:grisu-client-swing</exclude>
+				<exclude>grisu.frontend:grython</exclude>
 				<exclude>junit:junit</exclude>
 				<exclude>bouncycastle:bcprov-jdk15</exclude>
 			</excludes>

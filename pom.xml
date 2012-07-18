@@ -7,9 +7,9 @@
 		<version>0.17</version>
 	</parent>
 	<groupId>grisu.frontend</groupId>
-	<artifactId>combinedClient</artifactId>
-	<version>0.1-SNAPSHOT</version>
-	
+	<version>${grisu-version}</version>
+	<packaging>jar</packaging>
+
 	<repositories>
 		<repository>
 			<id>bestgrid.public.release</id>
@@ -25,25 +25,55 @@
 				<checksumPolicy>fail</checksumPolicy>
 			</snapshots>
 		</repository>
-	</repositories>	
-	
-	
-	
+	</repositories>
+
+
+
 	<dependencies>
 		<dependency>
 			<groupId>grisu.frontend</groupId>
 			<artifactId>gricli</artifactId>
-			<version>0.8-SNAPSHOT</version>
+			<version>${gricli.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>grisu.frontend</groupId>
 			<artifactId>grisu-template-client</artifactId>
-			<version>0.8-SNAPSHOT</version>
+			<version>${grisu-template-client.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>grisu.frontend</groupId>
 			<artifactId>grython</artifactId>
-			<version>0.5-SNAPSHOT</version>
+			<version>${grython.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>grisu.frontend</groupId>
+			<artifactId>grisu-client</artifactId>
+			<version>${grisu.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>grisu</groupId>
+			<artifactId>grisu-commons</artifactId>
+			<version>${grisu.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>grisu</groupId>
+			<artifactId>grid-jcommons</artifactId>
+			<version>${grid-jcommons.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>grith</groupId>
+			<artifactId>jgrith</artifactId>
+			<version>${jgrith.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>grith</groupId>
+			<artifactId>grid-session</artifactId>
+			<version>${grid-session.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>grisu.frontend</groupId>
+			<artifactId>grisu-client-swing</artifactId>
+			<version>${grisu.version}</version>
 		</dependency>
 	</dependencies>
 
@@ -56,13 +86,14 @@
 				<artifactId>maven-assembly-plugin</artifactId>
 				<executions>
 					<execution>
+						<id>client-assembly</id>
 						<phase>package</phase>
 						<configuration>
-
+							<appendAssemblyId>false</appendAssemblyId>
 							<descriptors>
 								<descriptor>client.assembly.xml</descriptor>
 							</descriptors>
-							<finalName>combinedClient</finalName>
+							<finalName>grid-client</finalName>
 							<archive>
 								<index>true</index>
 								<manifest>
@@ -80,6 +111,34 @@
 							<goal>attached</goal>
 						</goals>
 					</execution>
+
+					<execution>
+						<id>client-dependencies-assembly</id>
+						<phase>package</phase>
+						<configuration>
+							<appendAssemblyId>false</appendAssemblyId>
+							<descriptors>
+								<descriptor>client-dependencies.assembly.xml</descriptor>
+							</descriptors>
+							<finalName>grid-client-dependencies</finalName>
+							<archive>
+								<index>true</index>
+<!-- 								<manifest> -->
+<!-- 									<mainClass>grisu.frontend.view.swing.GrisuTemplateApp</mainClass> -->
+<!-- 								</manifest> -->
+<!-- 								<manifestEntries> -->
+<!-- 									<Class-Path>bcprov.jar bcprov-jdk15-143.jar -->
+<!-- 										local-backend-dev.jar local-backend.jar -->
+<!-- 										grisu-client-dependencies.jar</Class-Path> -->
+<!-- 								</manifestEntries> -->
+							</archive>
+
+						</configuration>
+						<goals>
+							<goal>attached</goal>
+						</goals>
+					</execution>
+
 				</executions>
 			</plugin>
 
@@ -142,4 +201,14 @@
 	</profiles>
 
 
+	<artifactId>combined-grid-client</artifactId>
+	<properties>
+		<grisu.version>0.5-rc2-SNAPSHOT</grisu.version>
+		<grisu-template-client.version>0.8-SNAPSHOT</grisu-template-client.version>
+		<jgrith.version>0.7-rc2-SNAPSHOT</jgrith.version>
+		<gricli.version>0.8-SNAPSHOT</gricli.version>
+		<grython.version>0.5-SNAPSHOT</grython.version>
+		<grid-session.version>0.1-rc2-SNAPSHOT</grid-session.version>
+		<grid-jcommons.version>2.0.1-SNAPSHOT</grid-jcommons.version>
+	</properties>
 </project>
