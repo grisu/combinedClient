@@ -21,6 +21,7 @@ code = grid-client-dependencies.jar
 class = grisu.frontend.view.swing.GrisuTemplateApp
 setup.class = grisu.frontend.view.swing.utils.ssh.SshKeyCopyFrame
 tray.class = grith.gridsession.view.tray.GridSessionTrayClient
+virtscreen.class = org.bestgrid.virtscreen.view.GrisuVirtScreen
 
 jvmarg = [linux] -DX509_USER_PROXY=~/.grid/grid.proxy
 jvmarg = [mac os x] -DX509_USER_PROXY=~/.grid/grid.proxy
