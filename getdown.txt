@@ -5,12 +5,13 @@ appbase = http://code.ceres.auckland.ac.nz/snapshot-downloads/installers
 ui.name = NeSI
 
 ui.background = nesi.png
-ui.progress = 52, 145, 236, 15
-ui.progress_text = 747474
-ui.progress_bar = CCCCCC
+ui.progress = 26, 201, 350, 21
+ui.progress_text = 97a4ae
+ui.progress_bar = 425969
 
-ui.status = 52, 178, 247, 15
-ui.status_text = 747474
+ui.status = 30, 249, 350, 21
+ui.status_text = 97a4ae
+
 
 # Application jar files
 code = grid-client-core.jar
