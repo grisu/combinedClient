@@ -75,6 +75,11 @@
 			<artifactId>grisu-client-swing</artifactId>
 			<version>${grisu.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>org.bestgrid.virtscreen</groupId>
+			<artifactId>grisu-virtscreen</artifactId>
+			<version>${grisu-virtscreen.version}</version>
+		</dependency>
 	</dependencies>
 
 
@@ -236,5 +241,6 @@
 		<grython.version>0.5-SNAPSHOT</grython.version>
 		<grid-session.version>0.1-rc2-SNAPSHOT</grid-session.version>
 		<grid-jcommons.version>2.0.1-SNAPSHOT</grid-jcommons.version>
+		<grisu-virtscreen.version>0.8-SNAPSHOT</grisu-virtscreen.version>
 	</properties>
 </project>
