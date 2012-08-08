@@ -236,11 +236,11 @@
 	<properties>
 		<grisu.version>0.5-rc2-SNAPSHOT</grisu.version>
 		<grisu-template-client.version>0.8-SNAPSHOT</grisu-template-client.version>
-		<jgrith.version>0.7-rc2-SNAPSHOT</jgrith.version>
+		<jgrith.version>0.7-rc3-SNAPSHOT</jgrith.version>
 		<gricli.version>0.8-SNAPSHOT</gricli.version>
 		<grython.version>0.5-SNAPSHOT</grython.version>
 		<grid-session.version>0.1-rc2-SNAPSHOT</grid-session.version>
-		<grid-jcommons.version>2.0.1-SNAPSHOT</grid-jcommons.version>
+		<grid-jcommons.version>2.0.2-SNAPSHOT</grid-jcommons.version>
 		<grisu-virtscreen.version>0.8-SNAPSHOT</grisu-virtscreen.version>
 	</properties>
 </project>
