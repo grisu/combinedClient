@@ -116,32 +116,7 @@
 							<goal>attached</goal>
 						</goals>
 					</execution>				
-				
-					<execution>
-						<id>client-assembly</id>
-						<phase>package</phase>
-						<configuration>
-							<appendAssemblyId>false</appendAssemblyId>
-							<descriptors>
-								<descriptor>client.assembly.xml</descriptor>
-							</descriptors>
-							<finalName>grid-client-core</finalName>
-							<archive>
-								<index>true</index>
-								<manifest>
-									<mainClass>grisu.frontend.view.swing.GrisuTemplateApp</mainClass>
-								</manifest>
-								<manifestEntries>
-									<Class-Path>bcprov.jar local-backend.jar
-										grid-client-dependencies.jar</Class-Path>
-								</manifestEntries>
-							</archive>
 
-						</configuration>
-						<goals>
-							<goal>attached</goal>
-						</goals>
-					</execution>
 
 					<execution>
 						<id>client-dependencies-assembly</id>
@@ -169,7 +144,32 @@
 							<goal>attached</goal>
 						</goals>
 					</execution>
+				
+					<execution>
+						<id>client-assembly</id>
+						<phase>package</phase>
+						<configuration>
+							<appendAssemblyId>false</appendAssemblyId>
+							<descriptors>
+								<descriptor>client.assembly.xml</descriptor>
+							</descriptors>
+							<finalName>grid-client-core</finalName>
+							<archive>
+								<index>true</index>
+								<manifest>
+									<mainClass>grisu.frontend.view.swing.GrisuTemplateApp</mainClass>
+								</manifest>
+								<manifestEntries>
+									<Class-Path>bcprov.jar local-backend.jar
+										grid-client-dependencies.jar</Class-Path>
+								</manifestEntries>
+							</archive>
 
+						</configuration>
+						<goals>
+							<goal>attached</goal>
+						</goals>
+					</execution>
 				</executions>
 			</plugin>
 			
