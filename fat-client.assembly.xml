@@ -9,7 +9,7 @@
 			<unpack>true</unpack>
 			<useTransitiveDependencies>true</useTransitiveDependencies>
 			<useTransitiveFiltering>false</useTransitiveFiltering>
-			<useProjectArtifact>false</useProjectArtifact>
+			<useProjectArtifact>true</useProjectArtifact>
 			<outputDirectory>/</outputDirectory>
 			<excludes>
 				<exclude>junit:junit</exclude>

@@ -18,7 +18,8 @@ code = grid-client-core.jar
 code = grid-client-dependencies.jar
 
 # The main entry point for the application
-class = grisu.frontend.view.swing.GrisuTemplateApp
+class = Start
+template.class = grisu.frontend.view.swing.GrisuTemplateApp 
 setup.class = grisu.frontend.view.swing.utils.ssh.SshKeyCopyFrame
 tray.class = grith.gridsession.view.tray.GridSessionTrayClient
 virtscreen.class = org.bestgrid.virtscreen.view.GrisuVirtScreen

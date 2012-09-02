@@ -12,7 +12,7 @@
 			<useProjectArtifact>true</useProjectArtifact>
 			<outputDirectory>/</outputDirectory>
 			<includes>
-<!-- 				<include>grisu.frontend:combinedClient</include> -->
+<!-- 				<include>grisu.frontend:combined-grid-client</include> -->
 				<include>grisu.frontend:gricli</include>
 				<include>grisu.frontend:grisu-client</include>
 				<include>grisu:grisu-commons</include>
@@ -46,6 +46,11 @@
 		<file>
 			<source>src/main/resources/logback.xml</source>
 			<outputDirectory>/</outputDirectory>
+		</file>
+<!-- 		Workaround, otherwise class doesn't seem to be included -->
+		<file>
+			<source>target/classes/start/Client.class</source>
+			<outputDirectory>/start/</outputDirectory>
 		</file>
 	</files>
 

@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>nz.org.nesi</groupId>
@@ -6,7 +7,7 @@
 		<version>0.19</version>
 	</parent>
 	<groupId>grisu.frontend</groupId>
-	<version>0.5-rc4-SNAPSHOT</version>
+	<version>${grisu.version}</version>
 	<packaging>jar</packaging>
 
 	<repositories>
@@ -102,7 +103,7 @@
 							<archive>
 								<index>true</index>
 								<manifest>
-									<mainClass>grisu.frontend.view.swing.GrisuTemplateApp</mainClass>
+									<mainClass>start.Client</mainClass>
 								</manifest>
 								<manifestEntries>
 									<Class-Path>bcprov.jar local-backend.jar
@@ -115,32 +116,7 @@
 							<goal>attached</goal>
 						</goals>
 					</execution>				
-				
-					<execution>
-						<id>client-assembly</id>
-						<phase>package</phase>
-						<configuration>
-							<appendAssemblyId>false</appendAssemblyId>
-							<descriptors>
-								<descriptor>client.assembly.xml</descriptor>
-							</descriptors>
-							<finalName>grid-client-core</finalName>
-							<archive>
-								<index>true</index>
-								<manifest>
-									<mainClass>grisu.frontend.view.swing.GrisuTemplateApp</mainClass>
-								</manifest>
-								<manifestEntries>
-									<Class-Path>bcprov.jar local-backend.jar
-										grid-client-dependencies.jar</Class-Path>
-								</manifestEntries>
-							</archive>
 
-						</configuration>
-						<goals>
-							<goal>attached</goal>
-						</goals>
-					</execution>
 
 					<execution>
 						<id>client-dependencies-assembly</id>
@@ -168,7 +144,32 @@
 							<goal>attached</goal>
 						</goals>
 					</execution>
+				
+					<execution>
+						<id>client-assembly</id>
+						<phase>package</phase>
+						<configuration>
+							<appendAssemblyId>false</appendAssemblyId>
+							<descriptors>
+								<descriptor>client.assembly.xml</descriptor>
+							</descriptors>
+							<finalName>grid-client-core</finalName>
+							<archive>
+								<index>true</index>
+								<manifest>
+									<mainClass>start.Client</mainClass>
+								</manifest>
+								<manifestEntries>
+									<Class-Path>bcprov.jar local-backend.jar
+										grid-client-dependencies.jar</Class-Path>
+								</manifestEntries>
+							</archive>
 
+						</configuration>
+						<goals>
+							<goal>attached</goal>
+						</goals>
+					</execution>
 				</executions>
 			</plugin>
 			
