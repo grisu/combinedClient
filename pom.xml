@@ -6,7 +6,7 @@
 		<version>0.19</version>
 	</parent>
 	<groupId>grisu.frontend</groupId>
-	<version>0.5-rc4-SNAPSHOT</version>
+	<version>0.5-rc4</version>
 	<packaging>jar</packaging>
 
 	<repositories>
