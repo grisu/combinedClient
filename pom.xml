@@ -94,11 +94,11 @@
 						<id>fat-client-assembly</id>
 						<phase>package</phase>
 						<configuration>
-							<appendAssemblyId>false</appendAssemblyId>
+							<appendAssemblyId>true</appendAssemblyId>
 							<descriptors>
 								<descriptor>fat-client.assembly.xml</descriptor>
 							</descriptors>
-							<finalName>grid-client</finalName>
+							<finalName>grid</finalName>
 							<archive>
 								<index>true</index>
 								<manifest>
@@ -121,11 +121,11 @@
 						<id>client-dependencies-assembly</id>
 						<phase>package</phase>
 						<configuration>
-							<appendAssemblyId>false</appendAssemblyId>
+							<appendAssemblyId>true</appendAssemblyId>
 							<descriptors>
 								<descriptor>client-dependencies.assembly.xml</descriptor>
 							</descriptors>
-							<finalName>grid-client-dependencies</finalName>
+							<finalName>grid</finalName>
 							<archive>
 								<index>true</index>
 <!-- 								<manifest> -->
@@ -148,11 +148,11 @@
 						<id>client-assembly</id>
 						<phase>package</phase>
 						<configuration>
-							<appendAssemblyId>false</appendAssemblyId>
+							<appendAssemblyId>true</appendAssemblyId>
 							<descriptors>
 								<descriptor>client.assembly.xml</descriptor>
 							</descriptors>
-							<finalName>grid-client-core</finalName>
+							<finalName>grid</finalName>
 							<archive>
 								<index>true</index>
 								<manifest>

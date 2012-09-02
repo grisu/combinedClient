@@ -1,5 +1,5 @@
 <assembly>
-<!-- 	<id>binary</id> -->
+	<id>client-dependencies</id>
 	<formats>
 		<format>jar</format>
 	</formats>
