@@ -256,9 +256,4 @@
 		<grid-jcommons.version>2.0.3-SNAPSHOT</grid-jcommons.version>
 		<grisu-virtscreen.version>0.8-rc2-SNAPSHOT</grisu-virtscreen.version>
 	</properties>
-	<scm>
-		<url>https://github.com/grisu/gricli</url>
-		<connection>scm:git:git://github.com/grisu/combinedClient.git</connection>
-		<developerConnection>scm:git:git@github.com:grisu/combinedClient.git</developerConnection>
-	</scm>
 </project>
