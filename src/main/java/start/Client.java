@@ -36,6 +36,11 @@ public class Client {
 			clientToStart = grith.gridsession.CliSessionControl.class;
 		} else if ("ssh-setup".equalsIgnoreCase(clientName)) {
 			clientToStart = grisu.frontend.view.swing.utils.ssh.SshKeyCopyFrame.class;
+		} else if ("grython".equalsIgnoreCase(clientName)) {
+			clientToStart = grisu.Grython.class;
+		} else {
+			System.out.println("Client "+clientName+" not available. Exiting...");
+			System.exit(1);
 		}
 
 		String[] args_new = new String[] {};

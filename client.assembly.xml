@@ -52,6 +52,10 @@
 			<source>target/classes/start/Client.class</source>
 			<outputDirectory>/start/</outputDirectory>
 		</file>
+		<file>
+			<source>target/classes/start/UpdateOnly.class</source>
+			<outputDirectory>/start/</outputDirectory>
+		</file>
 	</files>
 
 </assembly>

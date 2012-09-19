@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>nz.org.nesi</groupId>
 		<artifactId>nesi</artifactId>
-		<version>0.19</version>
+		<version>0.20</version>
 	</parent>
 	<groupId>grisu.frontend</groupId>
 	<version>0.5-rc6-SNAPSHOT</version>
@@ -224,7 +224,7 @@
 					<plugin>
 						<groupId>org.bitbucket.joxley</groupId>
 						<artifactId>getdown-maven-plugin</artifactId>
-						<version>nesi-0.0.1</version>
+						<version>0.2</version>
 						<configuration>
 							<appdir>target</appdir> <!-- Defaults to target -->
 						</configuration>
@@ -246,14 +246,14 @@
 
 	<artifactId>combined-grid-client</artifactId>
 	<properties>
-		<grisu.version>0.5-rc3-SNAPSHOT</grisu.version>
-		<grisu-template-client.version>0.8-rc2-SNAPSHOT</grisu-template-client.version>
-		<jgrith.version>0.7.1-SNAPSHOT</jgrith.version>
-		<gricli.version>0.8-rc4-SNAPSHOT</gricli.version>
-		<grython.version>0.5-SNAPSHOT</grython.version>
-		<grid-session.version>0.1.1-SNAPSHOT</grid-session.version>
-		<grid-jcommons.version>2.0.3-SNAPSHOT</grid-jcommons.version>
-		<grisu-virtscreen.version>0.8-rc2-SNAPSHOT</grisu-virtscreen.version>
+		<grisu.version>0.5.3-SNAPSHOT</grisu.version>
+		<grisu-template-client.version>0.8.4-SNAPSHOT</grisu-template-client.version>
+		<jgrith.version>0.7.1</jgrith.version>
+		<gricli.version>0.8</gricli.version>
+		<grython.version>0.5</grython.version>
+		<grid-session.version>0.1.2</grid-session.version>
+		<grid-jcommons.version>2.0.3</grid-jcommons.version>
+		<grisu-virtscreen.version>0.8</grisu-virtscreen.version>
 	</properties>
 	<scm>
 		<url>https://github.com/grisu/combinedClient</url>

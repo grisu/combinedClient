@@ -1,5 +1,5 @@
 # The URL from which the client is downloaded
-appbase = http://code.ceres.auckland.ac.nz/downloads/nesi
+appbase = http://code.ceres.auckland.ac.nz/downloads/dev
 
 # UI Configuration
 ui.name = NeSI
@@ -23,6 +23,14 @@ template.class = grisu.frontend.view.swing.GrisuTemplateApp
 setup.class = grisu.frontend.view.swing.utils.ssh.SshKeyCopyFrame
 tray.class = grith.gridsession.view.tray.GridSessionTrayClient
 virtscreen.class = org.bestgrid.virtscreen.view.GrisuVirtScreen
+update.class = start.UpdateOnly
+
+# Version requirements for our JVM
+java_version = 1060000
+java_version_max = 1060023
+java_location = [windows] /downloads/dev/jre/java_windows.jar
+java_location = [linux] /downloads/dev/jre/java_linux.jar
+
 
 jvmarg = [linux] -DX509_USER_PROXY=~/.grid/grid.proxy
 jvmarg = [mac os x] -DX509_USER_PROXY=~/.grid/grid.proxy
