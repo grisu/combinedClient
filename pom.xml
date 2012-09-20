@@ -246,14 +246,14 @@
 
 	<artifactId>combined-grid-client</artifactId>
 	<properties>
-		<grisu.version>0.5.3-SNAPSHOT</grisu.version>
-		<grisu-template-client.version>0.8.4-SNAPSHOT</grisu-template-client.version>
+		<grisu.version>0.5.4</grisu.version>
+		<grisu-template-client.version>0.8.4</grisu-template-client.version>
 		<jgrith.version>0.7.1</jgrith.version>
-		<gricli.version>0.8</gricli.version>
-		<grython.version>0.5</grython.version>
+		<gricli.version>0.8.3</gricli.version>
+		<grython.version>0.5.2</grython.version>
 		<grid-session.version>0.1.2</grid-session.version>
 		<grid-jcommons.version>2.0.3</grid-jcommons.version>
-		<grisu-virtscreen.version>0.8</grisu-virtscreen.version>
+		<grisu-virtscreen.version>0.8.4</grisu-virtscreen.version>
 	</properties>
 	<scm>
 		<url>https://github.com/grisu/combinedClient</url>

@@ -1,5 +1,5 @@
 # The URL from which the client is downloaded
-appbase = http://code.ceres.auckland.ac.nz/downloads/dev
+appbase = http://code.ceres.auckland.ac.nz/downloads/nesi
 
 # UI Configuration
 ui.name = NeSI
