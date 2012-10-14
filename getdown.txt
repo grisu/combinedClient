@@ -16,6 +16,7 @@ ui.status_text = 97a4ae
 # Application jar files
 code = grid-client-core.jar
 code = grid-client-dependencies.jar
+code = bcprov.jar
 
 # The main entry point for the application
 class = Start
@@ -27,9 +28,9 @@ update.class = start.UpdateOnly
 
 # Version requirements for our JVM
 java_version = 1060000
-java_version_max = 1060023
-java_location = [windows] /downloads/dev/jre/java_windows.jar
-java_location = [linux] /downloads/dev/jre/java_linux.jar
+java_version_max = 1060099
+java_location = [windows] /downloads/nesi/jre/java_windows.jar
+java_location = [linux] /downloads/nesi/jre/java_linux.jar
 
 
 jvmarg = [linux] -DX509_USER_PROXY=~/.grid/grid.proxy
