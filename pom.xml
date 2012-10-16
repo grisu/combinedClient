@@ -192,6 +192,9 @@
 	<profiles>
 		<profile>
 			<id>getdown</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
 			<build>
 				<plugins>
 
@@ -232,12 +235,25 @@
 							<goal>wget</goal>
 						</goals>
 						<configuration>
-							<skipCache>true</skipCache>
+							<skipCache>false</skipCache>
 							<url>${deploy.url}/bcprov.jar</url>
 							<unpack>false</unpack>
 							<outputDirectory>${basedir}/target/</outputDirectory>
 						</configuration>
 					</execution>		
+					<execution>
+						<id>download-mobaxterm</id>
+						<phase>validate</phase>
+						<goals>
+							<goal>wget</goal>
+						</goals>
+						<configuration>
+							<skipCache>false</skipCache>
+							<url>${deploy.url}/../MobaXTerm/mobaxterm.exe</url>
+							<unpack>false</unpack>
+							<outputDirectory>${basedir}/target/../MobaXTerm</outputDirectory>
+						</configuration>
+					</execution>						
 												
 				</executions>
 			</plugin>					

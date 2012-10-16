@@ -32,6 +32,9 @@ java_version_max = 1060099
 java_location = [windows] /downloads/nesi/jre/java_windows.jar
 java_location = [linux] /downloads/nesi/jre/java_linux.jar
 
+# resources
+resource = [windows] ../MobaXTerm/mobaxterm.exe
+
 
 jvmarg = [linux] -DX509_USER_PROXY=~/.grid/grid.proxy
 jvmarg = [mac os x] -DX509_USER_PROXY=~/.grid/grid.proxy
