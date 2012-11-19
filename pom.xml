@@ -294,7 +294,7 @@
 		<grid-session.version>0.1.7</grid-session.version>
 		<grid-jcommons.version>2.2</grid-jcommons.version>
 		<grisu-virtscreen.version>0.8.8</grisu-virtscreen.version>
-		<deploy.url>http://code.ceres.auckland.ac.nz/downloads/dev</deploy.url>
+		<deploy.url>http://code.ceres.auckland.ac.nz/downloads/nesi</deploy.url>
 	</properties>
 	<scm>
 		<url>https://github.com/grisu/combinedClient</url>
