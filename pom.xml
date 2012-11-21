@@ -188,6 +188,41 @@
 			</plugin>
 		</plugins>
 
+		<pluginManagement>
+			<plugins>
+				<!--This plugin's configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build itself.-->
+				<plugin>
+					<groupId>org.eclipse.m2e</groupId>
+					<artifactId>lifecycle-mapping</artifactId>
+					<version>1.0.0</version>
+					<configuration>
+						<lifecycleMappingMetadata>
+							<pluginExecutions>
+								<pluginExecution>
+									<pluginExecutionFilter>
+										<groupId>
+											com.googlecode.maven-download-plugin
+										</groupId>
+										<artifactId>
+											maven-download-plugin
+										</artifactId>
+										<versionRange>
+											[1.0.0,)
+										</versionRange>
+										<goals>
+											<goal>wget</goal>
+										</goals>
+									</pluginExecutionFilter>
+									<action>
+										<ignore></ignore>
+									</action>
+								</pluginExecution>
+							</pluginExecutions>
+						</lifecycleMappingMetadata>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
 	</build>
 
 	<profiles>
@@ -289,10 +324,10 @@
 	<properties>
 		<grisu.version>0.5.10-SNAPSHOT</grisu.version>
 		<grisu-template-client.version>0.8.10</grisu-template-client.version>
-		<jgrith.version>0.8.1</jgrith.version>
-		<gricli.version>0.8.6</gricli.version>
+		<jgrith.version>0.9-SNAPSHOT</jgrith.version>
+		<gricli.version>0.8.7-SNAPSHOT</gricli.version>
 		<grython.version>0.5.4</grython.version>
-		<grid-session.version>0.1.7</grid-session.version>
+		<grid-session.version>0.1.8-SNAPSHOT</grid-session.version>
 		<grid-jcommons.version>2.2</grid-jcommons.version>
 		<grisu-virtscreen.version>0.8.8</grisu-virtscreen.version>
 		<deploy.url>http://code.ceres.auckland.ac.nz/downloads/nesi</deploy.url>
