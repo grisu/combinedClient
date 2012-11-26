@@ -322,12 +322,12 @@
 
 	<artifactId>combined-grid-client</artifactId>
 	<properties>
-		<grisu.version>0.5.10-SNAPSHOT</grisu.version>
-		<grisu-template-client.version>0.8.10</grisu-template-client.version>
-		<jgrith.version>0.9-SNAPSHOT</jgrith.version>
-		<gricli.version>0.8.7-SNAPSHOT</gricli.version>
-		<grython.version>0.5.5-SNAPSHOT</grython.version>
-		<grid-session.version>0.1.8-SNAPSHOT</grid-session.version>
+		<grisu.version>0.5.10</grisu.version>
+		<grisu-template-client.version>0.8.11</grisu-template-client.version>
+		<jgrith.version>0.8.2</jgrith.version>
+		<gricli.version>0.8.7</gricli.version>
+		<grython.version>0.5.5</grython.version>
+		<grid-session.version>0.1.8</grid-session.version>
 		<grid-jcommons.version>2.2</grid-jcommons.version>
 		<grisu-virtscreen.version>0.8.8</grisu-virtscreen.version>
 		<deploy.url>http://code.ceres.auckland.ac.nz/downloads/nesi</deploy.url>
