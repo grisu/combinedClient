@@ -24,7 +24,7 @@
 				<exclude>junit:junit</exclude>
 				<exclude>bouncycastle:bcprov-jdk15</exclude>
 				<exclude>org.bestgrid.virtscreen:grisu-virtscreen</exclude>
-				<excludee>nz.org.nesi:nesi-setup</exclude>
+				<exclude>nz.org.nesi:nesi-setup</exclude>
 			</excludes>
 			<unpackOptions>
 				<excludes>

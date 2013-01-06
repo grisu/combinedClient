@@ -38,6 +38,8 @@ public class Client {
 			clientToStart = grisu.frontend.view.swing.utils.ssh.SshKeyCopyFrame.class;
 		} else if ("grython".equalsIgnoreCase(clientName)) {
 			clientToStart = grisu.Grython.class;
+		} else if ("nesi-setup".equalsIgnoreCase(clientName)) {
+			clientToStart = grisu.frontend.view.swing.utils.ssh.wizard.NesiSetupWizard.class;
 		} else {
 			System.out.println("Client "+clientName+" not available. Exiting...");
 			System.exit(1);

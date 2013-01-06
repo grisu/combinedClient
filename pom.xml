@@ -331,11 +331,11 @@
 		<jgrith.version>0.9</jgrith.version>
 		<grid-session.version>0.1.10</grid-session.version>
 		<grisu.version>0.5.12</grisu.version>
-		<grisu-template-client.version>0.8.13-SNAPSHOT</grisu-template-client.version>
-		<gricli.version>0.8.9-SNAPSHOT</gricli.version>
-		<grython.version>0.5.8-SNAPSHOT</grython.version>
-		<grisu-virtscreen.version>0.8.11-SNAPSHOT</grisu-virtscreen.version>
-		<nesi-setup.version>0.1-SNAPSHOT</nesi-setup.version>
+		<grisu-template-client.version>0.8.13</grisu-template-client.version>
+		<gricli.version>0.8.8</gricli.version>
+		<grython.version>0.5.8</grython.version>
+		<grisu-virtscreen.version>0.8.10</grisu-virtscreen.version>
+		<nesi-setup.version>0.1</nesi-setup.version>
 		<deploy.url>http://code.ceres.auckland.ac.nz/downloads/nesi</deploy.url>
 	</properties>
 	<scm>
