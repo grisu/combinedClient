@@ -21,7 +21,7 @@ code = bcprov.jar
 # The main entry point for the application
 class = Start
 template.class = grisu.frontend.view.swing.GrisuTemplateApp 
-setup.class = grisu.frontend.view.swing.utils.ssh.SshKeyCopyFrame
+setup.class = grisu.frontend.view.swing.utils.ssh.wizard.NesiSetupWizard
 tray.class = grith.gridsession.view.tray.GridSessionTrayClient
 virtscreen.class = org.bestgrid.virtscreen.view.GrisuVirtScreen
 update.class = start.UpdateOnly
@@ -39,3 +39,7 @@ resource = [windows] ../MobaXTerm/mobaxterm.exe
 jvmarg = [linux] -DX509_USER_PROXY=~/.grid/grid.proxy
 jvmarg = [mac os x] -DX509_USER_PROXY=~/.grid/grid.proxy
 jvmarg = [windows] -DX509_USER_PROXY=~\.grid\grid.proxy
+
+auxgroups = local-backend
+local-backend.code = local-backend.jar
+

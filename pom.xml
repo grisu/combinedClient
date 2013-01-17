@@ -85,6 +85,11 @@
 			<artifactId>nesi-setup</artifactId>
 			<version>${nesi-setup.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>grisu.backend</groupId>
+			<artifactId>grisu-core</artifactId>
+			<version>${grisu.version}</version>
+		</dependency>
 	</dependencies>
 
 
@@ -168,6 +173,25 @@
 									<Class-Path>bcprov.jar local-backend.jar
 										grid-client-dependencies.jar</Class-Path>
 								</manifestEntries>
+							</archive>
+
+						</configuration>
+						<goals>
+							<goal>attached</goal>
+						</goals>
+					</execution>
+					
+					<execution>
+						<id>local_backend-assembly</id>
+						<phase>package</phase>
+						<configuration>
+							<appendAssemblyId>true</appendAssemblyId>
+							<descriptors>
+								<descriptor>local_backend.assembly.xml</descriptor>
+							</descriptors>
+							<finalName>local</finalName>
+							<archive>
+								<index>true</index>
 							</archive>
 
 						</configuration>
@@ -277,7 +301,7 @@
 									<goal>wget</goal>
 								</goals>
 								<configuration>
-									<skipCache>false</skipCache>
+									<skipCache>true</skipCache>
 									<url>${deploy.url}/bcprov.jar</url>
 									<unpack>false</unpack>
 									<outputDirectory>${basedir}/target/</outputDirectory>
@@ -290,7 +314,7 @@
 									<goal>wget</goal>
 								</goals>
 								<configuration>
-									<skipCache>false</skipCache>
+									<skipCache>true</skipCache>
 									<url>${deploy.url}/../MobaXTerm/mobaxterm.exe</url>
 									<unpack>false</unpack>
 									<outputDirectory>${basedir}/target/../MobaXTerm</outputDirectory>
@@ -303,7 +327,7 @@
 					<plugin>
 						<groupId>org.bitbucket.joxley</groupId>
 						<artifactId>getdown-maven-plugin</artifactId>
-						<version>0.2</version>
+						<version>nesi-0.3</version>
 						<configuration>
 							<appdir>target</appdir> <!-- Defaults to target -->
 						</configuration>
@@ -327,15 +351,15 @@
 
 	<artifactId>combined-grid-client</artifactId>
 	<properties>
-		<grid-jcommons.version>2.3</grid-jcommons.version>
-		<jgrith.version>0.9</jgrith.version>
-		<grid-session.version>0.1.10</grid-session.version>
-		<grisu.version>0.5.12</grisu.version>
-		<grisu-template-client.version>0.8.13</grisu-template-client.version>
-		<gricli.version>0.8.8</gricli.version>
-		<grython.version>0.5.8</grython.version>
+		<grid-jcommons.version>2.4</grid-jcommons.version>
+		<jgrith.version>0.10</jgrith.version>
+		<grid-session.version>0.1.11</grid-session.version>
+		<grisu.version>0.5.14</grisu.version>
+		<grisu-template-client.version>0.8.14</grisu-template-client.version>
+		<gricli.version>0.8.9</gricli.version>
+		<grython.version>0.5.10</grython.version>
 		<grisu-virtscreen.version>0.8.10</grisu-virtscreen.version>
-		<nesi-setup.version>0.1</nesi-setup.version>
+		<nesi-setup.version>0.2</nesi-setup.version>
 		<deploy.url>http://code.ceres.auckland.ac.nz/downloads/nesi</deploy.url>
 	</properties>
 	<scm>
