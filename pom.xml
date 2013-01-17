@@ -335,7 +335,7 @@
 		<gricli.version>0.8.9-SNAPSHOT</gricli.version>
 		<grython.version>0.5.8-SNAPSHOT</grython.version>
 		<grisu-virtscreen.version>0.8.11-SNAPSHOT</grisu-virtscreen.version>
-		<nesi-setup.version>0.1-SNAPSHOT</nesi-setup.version>
+		<nesi-setup.version>0.3-SNAPSHOT</nesi-setup.version>
 		<deploy.url>http://code.ceres.auckland.ac.nz/downloads/dev</deploy.url>
 	</properties>
 	<scm>
