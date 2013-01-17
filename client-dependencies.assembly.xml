@@ -25,7 +25,6 @@
 				<exclude>bouncycastle:bcprov-jdk15</exclude>
 				<exclude>org.bestgrid.virtscreen:grisu-virtscreen</exclude>
 				<exclude>nz.org.nesi:nesi-setup</exclude>
-				<exclude>grisu.backend:grisu-core</exclude>
 			</excludes>
 			<unpackOptions>
 				<excludes>
