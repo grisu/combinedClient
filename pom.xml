@@ -353,8 +353,8 @@
 	<artifactId>combined-grid-client</artifactId>
 	<properties>
 		<grid-jcommons.version>2.4</grid-jcommons.version>
-		<jgrith.version>0.11</jgrith.version>
-		<grid-session.version>0.1.14</grid-session.version>
+		<jgrith.version>0.12-SNAPSHOT</jgrith.version>
+		<grid-session.version>0.1.15-SNAPSHOT</grid-session.version>
 		<grisu.version>0.5.15</grisu.version>
 		<grisu-template-client.version>0.8.14</grisu-template-client.version>
 		<gricli.version>0.8.9</gricli.version>
