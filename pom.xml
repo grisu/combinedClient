@@ -90,6 +90,11 @@
 			<artifactId>grisu-virtscreen</artifactId>
 			<version>${grisu-virtscreen.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>grisu.frontend</groupId>
+			<artifactId>gee</artifactId>
+			<version>${gee.version}</version>
+		</dependency>
 	</dependencies>
 
 
@@ -355,13 +360,14 @@
 		<grid-jcommons.version>2.4</grid-jcommons.version>
 		<jgrith.version>0.12</jgrith.version>
 		<grid-session.version>0.1.15</grid-session.version>
-		<grisu.version>0.5.15</grisu.version>
+		<grisu.version>0.5.16-SNAPSHOT</grisu.version>
 		<grisu-template-client.version>0.8.14</grisu-template-client.version>
 		<gricli.version>0.8.9</gricli.version>
 		<grython.version>0.5.11</grython.version>
 		<nesi-setup.version>0.3</nesi-setup.version>
 		<deploy.url>http://code.ceres.auckland.ac.nz/downloads/nesi</deploy.url>
 		<grisu-virtscreen.version>0.8.11</grisu-virtscreen.version>
+		<gee.version>0.1-SNAPSHOT</gee.version>
 	</properties>
 	<scm>
 		<url>https://github.com/grisu/combinedClient</url>

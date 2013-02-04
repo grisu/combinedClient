@@ -24,6 +24,7 @@
 				<include>grisu.frontend:grython</include>
 				<include>org.bestgrid.virtscreen:grisu-virtscreen</include>
 				<include>nz.org.nesi:nesi-setup</include>
+				<include>grisu.frontend:gee</include>
 			</includes>
 			<excludes>
 				<exclude>junit:junit</exclude>

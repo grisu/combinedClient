@@ -25,6 +25,7 @@ setup.class = grisu.frontend.view.swing.utils.ssh.wizard.NesiSetupWizard
 tray.class = grith.gridsession.view.tray.GridSessionTrayClient
 virtscreen.class = org.bestgrid.virtscreen.view.GrisuVirtScreen
 update.class = start.UpdateOnly
+gee.class = grisu.frontend.gee.Gee
 
 # Version requirements for our JVM
 java_version = 1060000

@@ -21,6 +21,7 @@
 				<exclude>grisu.frontend:grisu-template-client</exclude>
 				<exclude>grisu.frontend:grisu-client-swing</exclude>
 				<exclude>grisu.frontend:grython</exclude>
+				<exclude>grisu.frontend:gee</exclude>
 				<exclude>junit:junit</exclude>
 				<exclude>bouncycastle:bcprov-jdk15</exclude>
 				<exclude>org.bestgrid.virtscreen:grisu-virtscreen</exclude>
