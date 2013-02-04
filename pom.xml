@@ -360,7 +360,7 @@
 		<grid-jcommons.version>2.4</grid-jcommons.version>
 		<jgrith.version>0.12</jgrith.version>
 		<grid-session.version>0.1.15</grid-session.version>
-		<grisu.version>0.5.16-SNAPSHOT</grisu.version>
+		<grisu.version>0.5.16</grisu.version>
 		<grisu-template-client.version>0.8.14</grisu-template-client.version>
 		<gricli.version>0.8.9</gricli.version>
 		<grython.version>0.5.11</grython.version>
