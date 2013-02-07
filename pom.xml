@@ -364,10 +364,10 @@
 		<grisu-template-client.version>0.8.14</grisu-template-client.version>
 		<gricli.version>0.8.9</gricli.version>
 		<grython.version>0.5.11</grython.version>
-		<nesi-setup.version>0.3</nesi-setup.version>
+		<nesi-setup.version>0.4</nesi-setup.version>
 		<deploy.url>http://code.ceres.auckland.ac.nz/downloads/nesi</deploy.url>
 		<grisu-virtscreen.version>0.8.11</grisu-virtscreen.version>
-		<gee.version>0.1-SNAPSHOT</gee.version>
+		<gee.version>0.1</gee.version>
 	</properties>
 	<scm>
 		<url>https://github.com/grisu/combinedClient</url>
