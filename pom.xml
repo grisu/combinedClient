@@ -361,8 +361,8 @@
 		<jgrith.version>0.12</jgrith.version>
 		<grid-session.version>0.1.15</grid-session.version>
 		<grisu.version>0.5.17</grisu.version>
-		<grisu-template-client.version>0.8.14</grisu-template-client.version>
-		<gricli.version>0.8.9</gricli.version>
+		<grisu-template-client.version>0.8.15</grisu-template-client.version>
+		<gricli.version>0.8.10</gricli.version>
 		<grython.version>0.5.11</grython.version>
 		<nesi-setup.version>0.4</nesi-setup.version>
 		<deploy.url>http://code.ceres.auckland.ac.nz/downloads/nesi</deploy.url>
