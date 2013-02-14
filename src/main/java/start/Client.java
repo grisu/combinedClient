@@ -42,6 +42,12 @@ public class Client {
 			clientToStart = grisu.frontend.gee.Gee.class;
 		} else if ("nesi-setup".equalsIgnoreCase(clientName)) {
 			clientToStart = grisu.frontend.view.swing.utils.ssh.wizard.NesiSetupWizard.class;
+		} else if ("benchmark-create".equalsIgnoreCase(clientName)) {
+			clientToStart = grisu.frontend.benchmark.Create.class;
+		} else if ("benchmark-submit".equalsIgnoreCase(clientName)) {
+			clientToStart = grisu.frontend.benchmark.Submit.class;
+		} else if ("benchmark-results".equalsIgnoreCase(clientName)) {
+			clientToStart = grisu.frontend.benchmark.Results.class;
 		} else {
 			System.out.println("Client "+clientName+" not available. Exiting...");
 			System.exit(1);

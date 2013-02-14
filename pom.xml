@@ -96,7 +96,7 @@
 			<version>${gee.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>grisu.frontend</groupId>
+			<groupId>grisu.frontend.benchmark</groupId>
 			<artifactId>grisu-benchmark</artifactId>
 			<version>${grisu-benchmark.version}</version>
 		</dependency>
@@ -373,7 +373,7 @@
 		<deploy.url>http://code.ceres.auckland.ac.nz/downloads/nesi</deploy.url>
 		<grisu-virtscreen.version>0.8.11</grisu-virtscreen.version>
 		<gee.version>0.1</gee.version>
-		<grisu-benchmark.version>0.2-SNAPSHOT</grisu-benchmark.version>
+		<grisu-benchmark.version>0.3-SNAPSHOT</grisu-benchmark.version>
 	</properties>
 	<scm>
 		<url>https://github.com/grisu/combinedClient</url>
