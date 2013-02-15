@@ -372,7 +372,7 @@
 		<nesi-setup.version>0.4</nesi-setup.version>
 		<deploy.url>http://code.ceres.auckland.ac.nz/downloads/nesi</deploy.url>
 		<grisu-virtscreen.version>0.8.11</grisu-virtscreen.version>
-		<gee.version>0.2-SNAPSHOT</gee.version>
+		<gee.version>0.3-SNAPSHOT</gee.version>
 		<grisu-benchmark.version>0.3-SNAPSHOT</grisu-benchmark.version>
 	</properties>
 	<scm>
