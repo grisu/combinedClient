@@ -25,7 +25,7 @@
 				<include>org.bestgrid.virtscreen:grisu-virtscreen</include>
 				<include>nz.org.nesi:nesi-setup</include>
 				<include>grisu.frontend:gee</include>
-				<include>grisu.frontend:grisu-backend</include>
+				<include>grisu.frontend.benchmark:grisu-benchmark</include>
 			</includes>
 			<excludes>
 				<exclude>junit:junit</exclude>
