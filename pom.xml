@@ -100,6 +100,11 @@
 			<artifactId>grisu-benchmark</artifactId>
 			<version>${grisu-benchmark.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>nz.org.nesi</groupId>
+			<artifactId>phyml-grid</artifactId>
+			<version>${phyml.version}</version>
+		</dependency>
 	</dependencies>
 
 
@@ -374,6 +379,7 @@
 		<grisu-virtscreen.version>0.8.12</grisu-virtscreen.version>
 		<gee.version>0.3</gee.version>
 		<grisu-benchmark.version>0.3</grisu-benchmark.version>
+		<phyml.version>0.1-SNAPSHOT</phyml.version>
 	</properties>
 	<scm>
 		<url>https://github.com/grisu/combinedClient</url>

@@ -26,6 +26,7 @@ tray.class = grith.gridsession.view.tray.GridSessionTrayClient
 virtscreen.class = org.bestgrid.virtscreen.view.GrisuVirtScreen
 update.class = start.UpdateOnly
 gee.class = grisu.frontend.gee.Gee
+phyml.class = phyml.PhymlMain
 
 # Version requirements for our JVM
 java_version = 1060000

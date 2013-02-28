@@ -40,6 +40,8 @@ public class Client {
 			clientToStart = grisu.Grython.class;
 		} else if ("gee".equalsIgnoreCase(clientName)) {
 			clientToStart = grisu.frontend.gee.Gee.class;
+		} else if ("phyml".equalsIgnoreCase(clientName)) {
+			clientToStart = phyml.PhymlMain.class;
 		} else if ("nesi-setup".equalsIgnoreCase(clientName)) {
 			clientToStart = grisu.frontend.view.swing.utils.ssh.wizard.NesiSetupWizard.class;
 		} else if ("benchmark-create".equalsIgnoreCase(clientName)) {
