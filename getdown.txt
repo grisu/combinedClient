@@ -42,7 +42,7 @@ resource = [windows] ../phyml/PhyML-aBayes_win32.exe
 resource = [linux] ../phyml/PhyML-Bayes_linux32
 resource = [linux] ../phyml/PhyML-Bayes_linux64
 
-resource = [mac os x] PhyML-aBayes_macOS_i386
+resource = [mac os x] ../PhyML-aBayes_macOS_i386
 
 jvmarg = [linux] -DX509_USER_PROXY=~/.grid/grid.proxy
 jvmarg = [mac os x] -DX509_USER_PROXY=~/.grid/grid.proxy
