@@ -336,7 +336,59 @@
 									<outputDirectory>${basedir}/target/../MobaXTerm</outputDirectory>
 								</configuration>
 							</execution>
-
+							<execution>
+								<id>download-phyml-win</id>
+								<phase>validate</phase>
+								<goals>
+									<goal>wget</goal>
+								</goals>
+								<configuration>
+									<skipCache>false</skipCache>
+									<url>${deploy.url}/../phyml/PhyML-aBayes_win32.exe</url>
+									<unpack>false</unpack>
+									<outputDirectory>${basedir}/target/../phyml</outputDirectory>
+								</configuration>
+							</execution>
+							<execution>
+								<id>download-phym-lin32</id>
+								<phase>validate</phase>
+								<goals>
+									<goal>wget</goal>
+								</goals>
+								<configuration>
+									<skipCache>false</skipCache>
+									<url>${deploy.url}/../phyml/PhyML-Bayes_linux32</url>
+									<unpack>false</unpack>
+									<outputDirectory>${basedir}/target/../phyml</outputDirectory>
+								</configuration>
+							</execution>
+							<execution>
+								<id>download-phyml-lin64</id>
+								<phase>validate</phase>
+								<goals>
+									<goal>wget</goal>
+								</goals>
+								<configuration>
+									<skipCache>false</skipCache>
+									<url>${deploy.url}/../phyml/PhyML-Bayes_linux64</url>
+									<unpack>false</unpack>
+									<outputDirectory>${basedir}/target/../phyml</outputDirectory>
+								</configuration>
+							</execution>
+							<execution>
+								<id>download-phyml-mac</id>
+								<phase>validate</phase>
+								<goals>
+									<goal>wget</goal>
+								</goals>
+								<configuration>
+									<skipCache>false</skipCache>
+									<url>${deploy.url}/../phyml/PhyML-aBayes_macOS_i386</url>
+									<unpack>false</unpack>
+									<outputDirectory>${basedir}/target/../phyml</outputDirectory>
+								</configuration>
+							</execution>
+							
 						</executions>
 					</plugin>
 
