@@ -7,7 +7,7 @@
 		<version>0.23</version>
 	</parent>
 	<groupId>grisu.frontend</groupId>
-	<version>0.5.14-SNAPSHOT</version>
+	<version>0.6-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<repositories>
@@ -96,7 +96,7 @@
 			<version>${gee.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>grisu.frontend.benchmark</groupId>
+			<groupId>grisu.frontend</groupId>
 			<artifactId>grisu-benchmark</artifactId>
 			<version>${grisu-benchmark.version}</version>
 		</dependency>
@@ -422,16 +422,19 @@
 		<grid-jcommons.version>2.5</grid-jcommons.version>
 		<jgrith.version>0.12</jgrith.version>
 		<grid-session.version>0.1.15</grid-session.version>
-		<grisu.version>0.5.19</grisu.version>
-		<grisu-template-client.version>0.8.16</grisu-template-client.version>
-		<gricli.version>0.8.11</gricli.version>
-		<grython.version>0.5.12</grython.version>
-		<nesi-setup.version>0.4</nesi-setup.version>
+		
+		<grisu.version>0.6</grisu.version>
+		
+		<grisu-template-client.version>0.9</grisu-template-client.version>
+		<gricli.version>0.9</gricli.version>
+		<grython.version>0.6</grython.version>
+		<nesi-setup.version>0.9</nesi-setup.version>
+		<grisu-virtscreen.version>0.9</grisu-virtscreen.version>
+		<gee.version>0.8</gee.version>
+		<grisu-benchmark.version>0.10</grisu-benchmark.version>
+		<phyml.version>0.6</phyml.version>
+		
 		<deploy.url>http://code.ceres.auckland.ac.nz/downloads/nesi</deploy.url>
-		<grisu-virtscreen.version>0.8.12</grisu-virtscreen.version>
-		<gee.version>0.3</gee.version>
-		<grisu-benchmark.version>0.3</grisu-benchmark.version>
-		<phyml.version>0.1-SNAPSHOT</phyml.version>
 	</properties>
 	<scm>
 		<url>https://github.com/grisu/combinedClient</url>

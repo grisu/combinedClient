@@ -23,9 +23,10 @@
 				<include>grisu.frontend:grisu-client-swing</include>
 				<include>grisu.frontend:grython</include>
 				<include>org.bestgrid.virtscreen:grisu-virtscreen</include>
-				<include>nz.org.nesi:nesi-setup</include>
 				<include>grisu.frontend:gee</include>
-				<include>grisu.frontend.benchmark:grisu-benchmark</include>
+				<include>grisu.frontend:grisu-benchmark</include>
+				<include>nz.org.nesi:nesi-setup</include>
+				<include>nz.org.nesi:phyml-grid</include>
 			</includes>
 			<excludes>
 				<exclude>junit:junit</exclude>
