@@ -17,6 +17,7 @@ ui.status_text = 97a4ae
 code = grid-client-core.jar
 code = grid-client-dependencies.jar
 code = bcprov.jar
+code = local-backend.jar
 
 # The main entry point for the application
 class = Start
@@ -48,6 +49,6 @@ jvmarg = [linux] -DX509_USER_PROXY=~/.grid/grid.proxy
 jvmarg = [mac os x] -DX509_USER_PROXY=~/.grid/grid.proxy
 jvmarg = [windows] -DX509_USER_PROXY=~\.grid\grid.proxy
 
-auxgroups = local-backend
-local-backend.code = local-backend.jar
+#auxgroups = local-backend
+#local-backend.code = local-backend.jar
 
