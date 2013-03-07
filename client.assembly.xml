@@ -12,7 +12,6 @@
 			<useProjectArtifact>true</useProjectArtifact>
 			<outputDirectory>/</outputDirectory>
 			<includes>
-<!-- 				<include>grisu.frontend:combined-grid-client</include> -->
 				<include>grisu.frontend:gricli</include>
 				<include>grisu.frontend:grisu-client</include>
 				<include>grisu:grisu-commons</include>

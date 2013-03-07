@@ -105,6 +105,12 @@
 			<artifactId>phyml-grid</artifactId>
 			<version>${phyml.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>grisu.backend</groupId>
+			<artifactId>grisu-core</artifactId>
+			<version>${grisu.version}</version>
+			<scope>provided</scope>
+		</dependency>
 	</dependencies>
 
 
@@ -196,24 +202,24 @@
 						</goals>
 					</execution>
 					
-					<execution>
-						<id>local_backend-assembly</id>
-						<phase>package</phase>
-						<configuration>
-							<appendAssemblyId>true</appendAssemblyId>
-							<descriptors>
-								<descriptor>local_backend.assembly.xml</descriptor>
-							</descriptors>
-							<finalName>local</finalName>
-							<archive>
-								<index>true</index>
-							</archive>
+<!-- 					<execution> -->
+<!-- 						<id>local_backend-assembly</id> -->
+<!-- 						<phase>package</phase> -->
+<!-- 						<configuration> -->
+<!-- 							<appendAssemblyId>true</appendAssemblyId> -->
+<!-- 							<descriptors> -->
+<!-- 								<descriptor>local_backend.assembly.xml</descriptor> -->
+<!-- 							</descriptors> -->
+<!-- 							<finalName>local</finalName> -->
+<!-- 							<archive> -->
+<!-- 								<index>true</index> -->
+<!-- 							</archive> -->
 
-						</configuration>
-						<goals>
-							<goal>attached</goal>
-						</goals>
-					</execution>
+<!-- 						</configuration> -->
+<!-- 						<goals> -->
+<!-- 							<goal>attached</goal> -->
+<!-- 						</goals> -->
+<!-- 					</execution> -->
 									
 				</executions>
 			</plugin>
@@ -310,6 +316,19 @@
 						<artifactId>maven-download-plugin</artifactId>
 						<version>1.0.0</version>
 						<executions>
+							<execution>
+								<id>download-local-backend</id>
+								<phase>validate</phase>
+								<goals>
+									<goal>wget</goal>
+								</goals>
+								<configuration>
+									<skipCache>true</skipCache>
+									<url>http://code.ceres.auckland.ac.nz/stable-downloads/grisu-backend-local/local-backend.jar</url>
+									<unpack>false</unpack>
+									<outputDirectory>${basedir}/target/</outputDirectory>
+								</configuration>
+							</execution>
 							<execution>
 								<id>download-client</id>
 								<phase>validate</phase>
