@@ -105,12 +105,6 @@
 			<artifactId>phyml-grid</artifactId>
 			<version>${phyml.version}</version>
 		</dependency>
-		<dependency>
-			<groupId>grisu.backend</groupId>
-			<artifactId>grisu-core</artifactId>
-			<version>${grisu.version}</version>
-			<scope>provided</scope>
-		</dependency>
 	</dependencies>
 
 

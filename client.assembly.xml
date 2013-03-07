@@ -30,7 +30,6 @@
 			<excludes>
 				<exclude>junit:junit</exclude>
 				<exclude>bouncycastle:bcprov-jdk15</exclude>
-				<exclude>grisu.backend:grisu-core</exclude>
 			</excludes>
 			<unpackOptions>
 				<excludes>
