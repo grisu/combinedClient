@@ -324,7 +324,7 @@
 								</goals>
 								<configuration>
 									<skipCache>true</skipCache>
-									<url>http://code.ceres.auckland.ac.nz/stable-downloads/grisu-backend-local/local-backend.jar</url>
+									<url>${local-backend.url}</url>
 									<unpack>false</unpack>
 									<outputDirectory>${basedir}/target/</outputDirectory>
 								</configuration>
@@ -454,6 +454,8 @@
 		<phyml.version>0.6</phyml.version>
 		
 		<deploy.url>http://code.ceres.auckland.ac.nz/downloads/nesi</deploy.url>
+		<!-- <local-backend.url>http://code.ceres.auckland.ac.nz/stable-downloads/grisu-backend-local/local-backend.jar</local-backend.url> -->
+		<local-backend.url>http://code.ceres.auckland.ac.nz/snapshot-downloads/grisu-backend-ws/local-backend.jar</local-backend.url>
 	</properties>
 	<scm>
 		<url>https://github.com/grisu/combinedClient</url>
