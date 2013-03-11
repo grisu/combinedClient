@@ -433,7 +433,7 @@
 	<artifactId>combined-grid-client</artifactId>
 	<properties>
 		<grid-jcommons.version>2.5</grid-jcommons.version>
-		<jgrith.version>0.12</jgrith.version>
+		<jgrith.version>0.13-SNAPSHOT</jgrith.version>
 		<grid-session.version>0.1.15</grid-session.version>
 		
 		<grisu.version>0.6.1-SNAPSHOT</grisu.version>
