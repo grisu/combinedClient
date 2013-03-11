@@ -35,6 +35,10 @@ java_version_max = 1060099
 java_location = [windows] /downloads/nesi/jre/java_windows.jar
 java_location = [linux] /downloads/nesi/jre/java_linux.jar
 
+# java arguments
+jvmarg = -Xmx256M
+
+
 # resources
 resource = [windows] ../MobaXTerm/mobaxterm.exe
 
