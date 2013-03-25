@@ -432,13 +432,13 @@
 
 	<artifactId>combined-grid-client</artifactId>
 	<properties>
-		<grid-jcommons.version>2.5</grid-jcommons.version>
-		<jgrith.version>0.13</jgrith.version>
-		<grid-session.version>0.1.15</grid-session.version>
+		<grid-jcommons.version>2.6-SNAPSHOT</grid-jcommons.version>
+		<jgrith.version>0.14-SNAPSHOT</jgrith.version>
+		<grid-session.version>0.1.16-SNAPSHOT</grid-session.version>
 		
-		<grisu.version>0.6</grisu.version>
+		<grisu.version>0.6.1-SNAPSHOT</grisu.version>
 		
-		<grisu-template-client.version>0.9</grisu-template-client.version>
+		<grisu-template-client.version>0.10-SNAPSHOT</grisu-template-client.version>
 		<gricli.version>0.9</gricli.version>
 		<grython.version>0.6</grython.version>
 		<nesi-setup.version>0.9</nesi-setup.version>
