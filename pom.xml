@@ -105,6 +105,11 @@
 			<artifactId>phyml-grid</artifactId>
 			<version>${phyml.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>nz.org.nesi</groupId>
+			<artifactId>goji</artifactId>
+			<version>${goji.version}</version>
+		</dependency>
 	</dependencies>
 
 
@@ -450,6 +455,7 @@
 		<deploy.url>http://code.ceres.auckland.ac.nz/downloads/nesi</deploy.url>
 		<!-- <local-backend.url>http://code.ceres.auckland.ac.nz/stable-downloads/grisu-backend-local/local-backend.jar</local-backend.url> -->
 		<local-backend.url>http://code.ceres.auckland.ac.nz/snapshot-downloads/grisu-backend-ws/local-backend.jar</local-backend.url>
+		<goji.version>0.0.2-SNAPSHOT</goji.version>
 	</properties>
 	<scm>
 		<url>https://github.com/grisu/combinedClient</url>

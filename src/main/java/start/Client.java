@@ -7,13 +7,6 @@ public class Client {
 
 	public static void main(String[] args) {
 
-		try {
-			Thread.sleep(2000);
-		} catch (InterruptedException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-		}
-
 		String clientName = null;
 
 		if ( (args == null) || (args.length == 0) ) {
@@ -50,6 +43,8 @@ public class Client {
 			clientToStart = grisu.frontend.benchmark.Submit.class;
 		} else if ("benchmark-results".equalsIgnoreCase(clientName)) {
 			clientToStart = grisu.frontend.benchmark.Results.class;
+		} else if ("goji".equalsIgnoreCase(clientName)) {
+			clientToStart = nz.org.nesi.goji.view.GojiCli.class;
 		} else {
 			System.out.println("Client "+clientName+" not available. Exiting...");
 			System.exit(1);
