@@ -3,6 +3,7 @@ import java.lang.reflect.Method;
 import java.util.Arrays;
 
 
+
 public class Client {
 
 	public static void main(String[] args) {
@@ -44,7 +45,7 @@ public class Client {
 		} else if ("benchmark-results".equalsIgnoreCase(clientName)) {
 			clientToStart = grisu.frontend.benchmark.Results.class;
 		} else if ("goji".equalsIgnoreCase(clientName)) {
-			clientToStart = nz.org.nesi.goji.view.GojiCli.class;
+			clientToStart = nz.org.nesi.goji.view.cli.GojiCli.class;
 		} else {
 			System.out.println("Client "+clientName+" not available. Exiting...");
 			System.exit(1);
