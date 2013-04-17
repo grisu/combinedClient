@@ -3,6 +3,7 @@
  <logger name="grisu" level="debug"/>
  <logger name="grith" level="debug"/>
  <logger name="phyml" level="debug"/>
+ <logger name="nz.org.nesi" level="debug"/>
 
 
   <appender name="FILE" class="ch.qos.logback.core.FileAppender">
