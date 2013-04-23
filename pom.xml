@@ -443,7 +443,7 @@
 		
 		<grisu.version>0.6.2</grisu.version>
 		
-		<grisu-template-client.version>0.11</grisu-template-client.version>
+		<grisu-template-client.version>0.12</grisu-template-client.version>
 		<gricli.version>0.11</gricli.version>
 		<grython.version>0.6.2</grython.version>
 		<nesi-setup.version>0.10</nesi-setup.version>
