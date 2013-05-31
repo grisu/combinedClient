@@ -438,7 +438,7 @@
 	<artifactId>combined-grid-client</artifactId>
 	<properties>
 		<grid-jcommons.version>2.9</grid-jcommons.version>
-		<jgrith.version>1.0</jgrith.version>
+		<jgrith.version>1.0.1</jgrith.version>
 		<grid-session.version>0.3</grid-session.version>
 		
 		<grisu.version>0.7</grisu.version>
@@ -453,9 +453,9 @@
 		<phyml.version>0.6.3</phyml.version>
 		
 		<deploy.url>http://code.ceres.auckland.ac.nz/downloads/nesi</deploy.url>
-		<!-- <local-backend.url>http://code.ceres.auckland.ac.nz/stable-downloads/grisu-backend-local/local-backend.jar</local-backend.url> -->
+		 <!--<local-backend.url>http://code.ceres.auckland.ac.nz/stable-downloads/grisu-backend-local/local-backend.jar</local-backend.url>-->
 		<local-backend.url>http://code.ceres.auckland.ac.nz/snapshot-downloads/grisu-backend-local/local-backend.jar</local-backend.url>
-		<goji.version>0.3-SNAPSHOT</goji.version>
+		<goji.version>0.3</goji.version>
 	</properties>
 	<scm>
 		<url>https://github.com/grisu/combinedClient</url>
