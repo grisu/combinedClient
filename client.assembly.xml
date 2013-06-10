@@ -26,7 +26,8 @@
 				<include>grisu.frontend:grisu-benchmark</include>
 				<include>nz.org.nesi:nesi-setup</include>
 				<include>nz.org.nesi:phyml-grid</include>
-				<include>nz.org.nesi:goji</include>
+                <include>nz.org.nesi:goji</include>
+                <include>nz.org.nesi:envtest</include>
 			</includes>
 			<excludes>
 				<exclude>junit:junit</exclude>

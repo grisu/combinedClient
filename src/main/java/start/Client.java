@@ -44,8 +44,10 @@ public class Client {
 			clientToStart = grisu.frontend.benchmark.Submit.class;
 		} else if ("benchmark-results".equalsIgnoreCase(clientName)) {
 			clientToStart = grisu.frontend.benchmark.Results.class;
-		} else if ("goji".equalsIgnoreCase(clientName)) {
-			clientToStart = nz.org.nesi.goji.view.cli.GojiCli.class;
+        } else if ("goji".equalsIgnoreCase(clientName)) {
+            clientToStart = nz.org.nesi.goji.view.cli.GojiCli.class;
+        } else if ("envtest".equalsIgnoreCase(clientName)) {
+            clientToStart = nz.org.nesi.envtester.view.swing.TestStarterFrame.class;
 		} else {
 			System.out.println("Client "+clientName+" not available. Exiting...");
 			System.exit(1);

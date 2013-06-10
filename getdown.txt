@@ -21,7 +21,7 @@ code = bcprov.jar
 
 # The main entry point for the application
 class = Start
-template.class = grisu.frontend.view.swing.GrisuTemplateApp 
+template.class = grisu.frontend.view.swing.GrisuTemplateApp
 setup.class = grisu.frontend.view.swing.utils.ssh.wizard.NesiSetupWizard
 tray.class = grith.gridsession.view.tray.GridSessionTrayClient
 virtscreen.class = org.bestgrid.virtscreen.view.GrisuVirtScreen
@@ -29,6 +29,7 @@ update.class = start.UpdateOnly
 gee.class = grisu.frontend.gee.Gee
 phyml.class = phyml.PhymlMain
 goji.class = nz.org.nesi.goji.view.cli.GojiCli
+goji.class = nz.org.nesi.envtester.view.swing.TestStarterFrame
 
 # Version requirements for our JVM
 java_version = 1060000

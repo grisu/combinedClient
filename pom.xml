@@ -70,6 +70,12 @@
 			<artifactId>grid-session</artifactId>
 			<version>${grid-session.version}</version>
 		</dependency>
+        <dependency>
+            <groupId>nz.org.nesi</groupId>
+            <artifactId>envtest</artifactId>
+            <version>${envtest.version}</version>
+        </dependency>
+
 		<dependency>
 			<groupId>grisu.frontend</groupId>
 			<artifactId>grisu-client-swing</artifactId>
@@ -115,7 +121,7 @@
 
 	<build>
 		<plugins>
-			<!-- you can disable the assembly plugin if you want, your builds will 
+			<!-- you can disable the assembly plugin if you want, your builds will
 				be faster I find it quite handy to have maven build an executable jar, though -->
 			<plugin>
 				<artifactId>maven-assembly-plugin</artifactId>
@@ -200,7 +206,7 @@
 							<goal>attached</goal>
 						</goals>
 					</execution>
-					
+
 <!-- 					<execution> -->
 <!-- 						<id>local_backend-assembly</id> -->
 <!-- 						<phase>package</phase> -->
@@ -219,7 +225,7 @@
 <!-- 							<goal>attached</goal> -->
 <!-- 						</goals> -->
 <!-- 					</execution> -->
-									
+
 				</executions>
 			</plugin>
 
@@ -406,7 +412,7 @@
 									<outputDirectory>${basedir}/target/../phyml</outputDirectory>
 								</configuration>
 							</execution>
-							
+
 						</executions>
 					</plugin>
 
@@ -440,10 +446,10 @@
 		<grid-jcommons.version>2.9</grid-jcommons.version>
 		<jgrith.version>1.0.1</jgrith.version>
 		<grid-session.version>0.3</grid-session.version>
-		
-		<grisu.version>0.7</grisu.version>
-		
-		<grisu-template-client.version>0.15</grisu-template-client.version>
+
+		<grisu.version>0.8-SNAPSHOT</grisu.version>
+
+		<grisu-template-client.version>0.16-SNAPSHOT</grisu-template-client.version>
 		<gricli.version>0.13</gricli.version>
 		<grython.version>0.7</grython.version>
 		<nesi-setup.version>0.11</nesi-setup.version>
@@ -451,7 +457,8 @@
 		<gee.version>0.11</gee.version>
 		<grisu-benchmark.version>0.12</grisu-benchmark.version>
 		<phyml.version>0.6.3</phyml.version>
-		
+        <envtest.version>0.1-SNAPSHOT</envtest.version>
+
 		<deploy.url>http://code.ceres.auckland.ac.nz/downloads/nesi</deploy.url>
 		 <!--<local-backend.url>http://code.ceres.auckland.ac.nz/stable-downloads/grisu-backend-local/local-backend.jar</local-backend.url>-->
 		<local-backend.url>http://code.ceres.auckland.ac.nz/snapshot-downloads/grisu-backend-local/local-backend.jar</local-backend.url>
