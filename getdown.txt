@@ -29,7 +29,7 @@ update.class = start.UpdateOnly
 gee.class = grisu.frontend.gee.Gee
 phyml.class = phyml.PhymlMain
 goji.class = nz.org.nesi.goji.view.cli.GojiCli
-goji.class = nz.org.nesi.envtester.view.swing.TestStarterFrame
+envtest.class = nz.org.nesi.envtester.view.swing.TestStarterFrame
 
 # Version requirements for our JVM
 java_version = 1060000
