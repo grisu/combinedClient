@@ -452,7 +452,7 @@
 		<grisu-template-client.version>0.16</grisu-template-client.version>
 		<gricli.version>0.13</gricli.version>
 		<grython.version>0.7</grython.version>
-		<nesi-setup.version>0.11</nesi-setup.version>
+		<nesi-setup.version>0.12</nesi-setup.version>
 		<grisu-virtscreen.version>0.13</grisu-virtscreen.version>
 		<gee.version>0.11</gee.version>
 		<grisu-benchmark.version>0.12</grisu-benchmark.version>
