@@ -447,7 +447,7 @@
 		<jgrith.version>1.0.2</jgrith.version>
 		<grid-session.version>0.3</grid-session.version>
 
-		<grisu.version>0.7.4</grisu.version>
+		<grisu.version>0.7.5-SNAPSHOT</grisu.version>
 
 		<grisu-template-client.version>0.16</grisu-template-client.version>
 		<gricli.version>0.13</gricli.version>
