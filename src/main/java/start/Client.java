@@ -1,4 +1,5 @@
 package start;
+
 import java.lang.reflect.Method;
 import java.util.Arrays;
 
@@ -48,6 +49,17 @@ public class Client {
             clientToStart = nz.org.nesi.goji.view.cli.GojiCli.class;
         } else if ("envtest".equalsIgnoreCase(clientName)) {
             clientToStart = nz.org.nesi.envtester.view.swing.TestStarterFrame.class;
+        } else if ("grisu".equalsIgnoreCase(clientName)) {
+
+            Class grisuClass = null;
+            try {
+                grisuClass = Class.forName("Grisu");
+            } catch (ClassNotFoundException e) {
+                e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+                System.exit(1);
+            }
+
+            clientToStart = grisuClass;
 		} else {
 			System.out.println("Client "+clientName+" not available. Exiting...");
 			System.exit(1);

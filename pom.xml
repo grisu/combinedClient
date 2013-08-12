@@ -7,7 +7,7 @@
 		<version>0.23</version>
 	</parent>
 	<groupId>grisu.frontend</groupId>
-	<version>0.7.4-SNAPSHOT</version>
+	<version>0.7.5-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<repositories>
@@ -76,11 +76,17 @@
             <version>${envtest.version}</version>
         </dependency>
 
-		<dependency>
-			<groupId>grisu.frontend</groupId>
-			<artifactId>grisu-client-swing</artifactId>
-			<version>${grisu.version}</version>
-		</dependency>
+        <dependency>
+            <groupId>grisu.frontend</groupId>
+            <artifactId>grisu-client-swing</artifactId>
+            <version>${grisu.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>grisu.frontend</groupId>
+            <artifactId>grisu-client</artifactId>
+            <version>${grisu.version}</version>
+        </dependency>
 <!-- 		<dependency> -->
 <!-- 			<groupId>org.bestgrid.virtscreen</groupId> -->
 <!-- 			<artifactId>grisu-virtscreen</artifactId> -->
@@ -447,7 +453,7 @@
 		<jgrith.version>1.0.2</jgrith.version>
 		<grid-session.version>0.3</grid-session.version>
 
-		<grisu.version>0.7.5-SNAPSHOT</grisu.version>
+		<grisu.version>0.7.5</grisu.version>
 
 		<grisu-template-client.version>0.16</grisu-template-client.version>
 		<gricli.version>0.13</gricli.version>

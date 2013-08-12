@@ -18,6 +18,7 @@
 				<exclude>junit:junit</exclude>
 				<exclude>bouncycastle:bcprov-jdk15</exclude>
 				<exclude>grisu:grisu-commons</exclude>
+                <exclude>ch.qos.logback:logback-classic</exclude>
 			</excludes>
 			<unpackOptions>
 				<excludes>
@@ -36,7 +37,7 @@
 					<exclude>ARCS.RSA</exclude>
 					<exclude>log4j.properties</exclude>
 					<exclude>log4j.xml</exclude>
-					
+					<exlucde>**/StaticLoggerBinder.class</exlucde>
 				</excludes>
 			</unpackOptions>
 		</dependencySet>
