@@ -461,7 +461,7 @@
 		<nesi-setup.version>0.12</nesi-setup.version>
 		<grisu-virtscreen.version>0.13</grisu-virtscreen.version>
 		<gee.version>0.12-SNAPSHOT</gee.version>
-		<grisu-benchmark.version>0.12</grisu-benchmark.version>
+		<grisu-benchmark.version>0.14</grisu-benchmark.version>
 		<phyml.version>0.6.3</phyml.version>
         <envtest.version>0.1-SNAPSHOT</envtest.version>
 
