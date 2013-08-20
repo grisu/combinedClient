@@ -453,7 +453,7 @@
 		<jgrith.version>1.0.2</jgrith.version>
 		<grid-session.version>0.3</grid-session.version>
 
-		<grisu.version>0.7.5</grisu.version>
+		<grisu.version>0.7.6-SNAPSHOT</grisu.version>
 
 		<grisu-template-client.version>0.16</grisu-template-client.version>
 		<gricli.version>0.13</gricli.version>
@@ -462,7 +462,7 @@
 		<grisu-virtscreen.version>0.15</grisu-virtscreen.version>
 		<gee.version>0.12-SNAPSHOT</gee.version>
 		<grisu-benchmark.version>0.12</grisu-benchmark.version>
-		<phyml.version>0.6.3</phyml.version>
+		<phyml.version>0.6.4-SNAPSHOT</phyml.version>
         <envtest.version>0.1-SNAPSHOT</envtest.version>
 
 		<deploy.url>http://code.ceres.auckland.ac.nz/downloads/nesi</deploy.url>
