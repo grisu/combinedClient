@@ -425,7 +425,8 @@
 					<plugin>
 						<groupId>org.bitbucket.joxley</groupId>
 						<artifactId>getdown-maven-plugin</artifactId>
-						<version>nesi-0.3</version>
+                        <!--<version>nesi-0.3</version>-->
+                        <version>0.5</version>
 						<configuration>
 							<appdir>target</appdir> <!-- Defaults to target -->
 						</configuration>
