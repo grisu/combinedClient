@@ -454,12 +454,12 @@
 		<jgrith.version>1.0.3</jgrith.version>
 		<grid-session.version>0.4</grid-session.version>
 
-		<grisu.version>0.7.10-SNAPSHOT</grisu.version>
+		<grisu.version>0.7.9</grisu.version>
 
 		<grisu-template-client.version>0.18</grisu-template-client.version>
 		<gricli.version>0.16</gricli.version>
 		<grython.version>0.7.9</grython.version>
-		<nesi-setup.version>0.12</nesi-setup.version>
+		<nesi-setup.version>0.14r</nesi-setup.version>
 		<grisu-virtscreen.version>0.17</grisu-virtscreen.version>
 		<gee.version>0.13</gee.version>
 		<grisu-benchmark.version>0.13</grisu-benchmark.version>
