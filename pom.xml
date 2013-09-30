@@ -463,7 +463,7 @@
 		<grisu-virtscreen.version>0.17</grisu-virtscreen.version>
 		<gee.version>0.13</gee.version>
 		<grisu-benchmark.version>0.13</grisu-benchmark.version>
-		<phyml.version>0.7.9</phyml.version>
+		<phyml.version>0.7.10-SNAPSHOT</phyml.version>
         <envtest.version>0.1</envtest.version>
 
 		<deploy.url>http://code.ceres.auckland.ac.nz/downloads/nesi</deploy.url>
