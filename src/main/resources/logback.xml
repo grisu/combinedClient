@@ -23,14 +23,14 @@
       <pattern>%-30(%d{HH:mm:ss.SSS} [%level] [%thread]) [%logger{0}] csid=[%X{session}] user=[%X{user}] cmdid=[%X{cmdid}] - %msg%n</pattern>
     </encoder>
   </appender> -->
-  
-<!--  <appender name="SYSLOG" class="grisu.control.util.SyslogAppender">
+
+<!--  <appender name="SYSLOG" class="grisu.phyml.gui.control.util.SyslogAppender">
     <syslogHost>localhost</syslogHost>
     <facility>USER</facility>
     <port>514</port>
     <suffixPattern>[%level] [%thread] [%logger{0}] csid=[%X{session}] user=[%X{user}] cmdid=[%X{cmdid}] - %msg%n</suffixPattern>
   </appender> -->
-  
+
     <!--
     <appender name="GRAYLOG" class="me.moocar.logbackgelf.GelfAppender">
         <facility>grisu-backend-test</facility>
@@ -44,7 +44,7 @@
         <additionalField>cmdid:_command_id</additionalField>
         <additionalField>user:_user</additionalField>
     </appender> -->
-  
+
 <!-- <appender name="SIFT" class="ch.qos.logback.classic.sift.SiftingAppender">
     <discriminator>
       <key>user</key>
@@ -60,7 +60,7 @@
       </appender>
     </sift>
   </appender> -->
-  
+
   <consolePlugin />
 
   <root>
