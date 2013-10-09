@@ -301,7 +301,7 @@
 						<version>2.6</version>
 						<executions>
 							<execution>
-								<id>copy-getdown-phyml.gui.control</id>
+								<id>copy-getdown-control</id>
 								<!-- here the phase you need -->
 								<phase>prepare-package</phase>
 								<goals>
