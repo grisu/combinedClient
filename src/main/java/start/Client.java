@@ -49,6 +49,8 @@ public class Client {
             clientToStart = nz.org.nesi.goji.view.cli.GojiCli.class;
         } else if ("envtest".equalsIgnoreCase(clientName)) {
             clientToStart = nz.org.nesi.envtester.view.swing.TestStarterFrame.class;
+        } else if ("app-manage".equalsIgnoreCase(clientName)) {
+            clientToStart = nz.org.nesi.appmanage.AppManage.class;
         } else if ("grisu".equalsIgnoreCase(clientName)) {
 
             Class grisuClass = null;

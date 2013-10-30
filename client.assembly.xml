@@ -28,6 +28,7 @@
 				<include>nz.org.nesi:phyml-grid</include>
                 <include>nz.org.nesi:goji</include>
                 <include>nz.org.nesi:envtest</include>
+                <include>nz.org.nesi:app-manage</include>
 			</includes>
 			<excludes>
 				<exclude>junit:junit</exclude>

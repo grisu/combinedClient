@@ -30,6 +30,7 @@
 				<exclude>nz.org.nesi:phyml-grid</exclude>
                 <exclude>nz.org.nesi:goji</exclude>
                 <exclude>nz.org.nesi:envtest</exclude>
+                <exclude>nz.org.nesi:app-manage</exclude>
 			</excludes>
 			<unpackOptions>
 				<excludes>
