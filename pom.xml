@@ -461,7 +461,7 @@
 
 		<grisu.version>0.7.12-SNAPSHOT</grisu.version>
 
-		<grisu-template-client.version>0.18</grisu-template-client.version>
+		<grisu-template-client.version>0.19-SNAPSHOT</grisu-template-client.version>
 		<gricli.version>0.16</gricli.version>
 		<grython.version>0.7.9</grython.version>
 		<nesi-setup.version>0.14r</nesi-setup.version>
