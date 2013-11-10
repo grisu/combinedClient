@@ -7,7 +7,7 @@
 		<version>0.23</version>
 	</parent>
 	<groupId>grisu.frontend</groupId>
-	<version>0.7.14-SNAPSHOT</version>
+	<version>0.8-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<repositories>
@@ -459,7 +459,7 @@
 		<jgrith.version>1.0.3</jgrith.version>
 		<grid-session.version>0.4</grid-session.version>
 
-		<grisu.version>0.9-SNAPSHOT</grisu.version>
+		<grisu.version>0.8</grisu.version>
 
 		<grisu-template-client.version>0.21</grisu-template-client.version>
 		<gricli.version>0.20</gricli.version>
