@@ -7,7 +7,7 @@
 		<version>0.23</version>
 	</parent>
 	<groupId>grisu.frontend</groupId>
-	<version>0.8-SNAPSHOT</version>
+	<version>0.8.2-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<repositories>
@@ -459,13 +459,13 @@
 		<jgrith.version>1.0.3</jgrith.version>
 		<grid-session.version>0.4</grid-session.version>
 
-		<grisu.version>0.9-SNAPSHOT</grisu.version>
+		<grisu.version>0.8.2</grisu.version>
 
-		<grisu-template-client.version>0.21</grisu-template-client.version>
-		<gricli.version>0.20</gricli.version>
-		<grython.version>0.8</grython.version>
-		<nesi-setup.version>0.14r</nesi-setup.version>
-		<grisu-virtscreen.version>0.17</grisu-virtscreen.version>
+		<grisu-template-client.version>0.22</grisu-template-client.version>
+		<gricli.version>0.21</gricli.version>
+		<grython.version>0.8.2</grython.version>
+		<nesi-setup.version>0.17</nesi-setup.version>
+		<grisu-virtscreen.version>0.19</grisu-virtscreen.version>
 		<gee.version>0.15</gee.version>
 		<grisu-benchmark.version>0.13</grisu-benchmark.version>
 		<phyml.version>0.8</phyml.version>
