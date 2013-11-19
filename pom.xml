@@ -455,7 +455,7 @@
 
 	<artifactId>combined-grid-client</artifactId>
 	<properties>
-		<grid-jcommons.version>2.12</grid-jcommons.version>
+		<grid-jcommons.version>2.13-SNAPSHOT</grid-jcommons.version>
 		<jgrith.version>1.0.3</jgrith.version>
 		<grid-session.version>0.4</grid-session.version>
 
@@ -470,7 +470,7 @@
 		<grisu-benchmark.version>0.13</grisu-benchmark.version>
 		<phyml.version>0.8</phyml.version>
 	        <envtest.version>0.2.1</envtest.version>
- 	        <appmanage.version>0.6</appmanage.version>
+ 	        <appmanage.version>0.7-SNAPSHOT</appmanage.version>
 
 		<deploy.url>http://code.ceres.auckland.ac.nz/downloads/nesi</deploy.url>
 		 <!--<local-backend.url>http://code.ceres.auckland.ac.nz/stable-downloads/grisu-backend-local/local-backend.jar</local-backend.url>-->
